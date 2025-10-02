@@ -3,9 +3,9 @@
 int main() {
   printf("Taille des types de base en C (en octets) :");
   
-  printf("char : %ld octet(s)\n", sizeof(char));
-  printf("signed char : %ld octet(s)\n", sizeof(signed char));
-  printf("unsigned char : %ld octet(s)\n", sizeof(unsigned char));
+  printf("char : %zu octet(s)\n", sizeof(char));
+  printf("signed char : %zu octet(s)\n", sizeof(signed char));
+  printf("unsigned char : %zu octet(s)\n", sizeof(unsigned char));
 
   printf("short : %ld octet(s)\n", sizeof(short));
   printf("signed short : %ld octet(s)\n", sizeof(signed short));
@@ -29,6 +29,7 @@ int main() {
 
   printf("long double : %ld octet(s)\n", sizeof(long double));
 }
+
 
 
 
