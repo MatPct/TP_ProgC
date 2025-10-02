@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <string.h>
 
 int main() {
   printf("Taille des types de base en C (en octets) :");
@@ -30,6 +29,7 @@ int main() {
 
   printf("long double : %ld octet(s)\n", sizeof(long double));
 }
+
 
 
 
