@@ -19,7 +19,7 @@ int main() {
     }
 
     // Calcul des termes suivants
-    for (i = 2; i <= n; i++) {
+    for (i = 2; i < n; i++) {
         suivant = a + b;
         printf(", %d", suivant);
         a = b;
@@ -28,3 +28,4 @@ int main() {
 
     printf("\n");
 }
+
