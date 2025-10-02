@@ -6,7 +6,7 @@ int main() {
 
     // Demande des valeurs à l'utilisateur
     printf("Entrez le premier entier : ");
-    scanf("%d", &num1);
+    scanf("Entrez le premier entier : %d\n", &num1);
 
     printf("Entrez le deuxième entier : ");
     scanf("%d", &num2);
@@ -52,5 +52,6 @@ int main() {
             printf("Opérateur invalide !\n");
     }
 }
+
 
 
