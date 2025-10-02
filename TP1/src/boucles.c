@@ -38,7 +38,7 @@ int main() {
         int j = 1; // compteur pour les colonnes
         while (j <= i) {
             // Le premier et le dernier de chaque ligne sont toujours '*'
-            if (j == 1 || j == i) {
+            if (j == 1 || j == i || i == compteur) {
                 printf("*");
             } 
             else {
@@ -53,6 +53,7 @@ int main() {
     }
   }
 }
+
 
 
 
