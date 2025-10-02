@@ -40,17 +40,20 @@ int main() {
             // Le premier et le dernier de chaque ligne sont toujours '*'
             if (j == 1 || j == i) {
                 printf("*");
-            } else {
+            } 
+            else {
                 printf("#");
             }
 
             printf(" "); // espace entre les caractères
             j++;
         }
+    }
         printf("\n"); // retour à la ligne après chaque ligne
         i++;
   }
 }
+
 
 
 
