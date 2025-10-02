@@ -4,32 +4,33 @@
 int main() {
   printf("Taille des types de base en C (en octets) :");
   
-  printf("char", sizeof(char));
+  printf("char : %zu octet(s)\n", sizeof(char));
   printf("signed char", sizeof(signed char));
   printf("unsigned char", sizeof(unsigned char));
 
-  printf("char", sizeof(short));
-  printf("signed char", sizeof(signed short));
-  printf("unsigned char", sizeof(unsigned short));
+  printf("short", sizeof(short));
+  printf("signed shot", sizeof(signed short));
+  printf("unsigned short", sizeof(unsigned short));
 
-  printf("char", sizeof(int));
-  printf("signed char", sizeof(signed int));
-  printf("unsigned char", sizeof(unsigned int));
+  printf("int", sizeof(int));
+  printf("signed int", sizeof(signed int));
+  printf("unsigned int", sizeof(unsigned int));
 
-  printf("char", sizeof(long int));
-  printf("signed char", sizeof(signed long int));
-  printf("unsigned char", sizeof(unsigned long int));
+  printf("long int", sizeof(long int));
+  printf("signed long int", sizeof(signed long int));
+  printf("unsigned long int", sizeof(unsigned long int));
 
-  printf("char", sizeof(long long int));
-  printf("signed char", sizeof(signed long long int));
-  printf("unsigned char", sizeof(unsigned long long int));
+  printf("long long int", sizeof(long long int));
+  printf("signed long long int", sizeof(signed long long int));
+  printf("unsigned long long int", sizeof(unsigned long long int));
 
-  printf("char", sizeof(float));
+  printf("float", sizeof(float));
 
-  printf("char", sizeof(double));
+  printf("double", sizeof(double));
 
-  printf("char", sizeof(long double));
+  printf("long double", sizeof(long double));
 }
+
 
 
 
