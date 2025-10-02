@@ -4,7 +4,7 @@ int main() {
   printf("Taille des types de base en C (en octets) :\n");
 
   // %zu : format approprié pour afficher le résultat de size of.
-  printf("char : %zu octet(s)\n", sizeof(char));
+  printf("char : %c octet(s)\n", sizeof(char));
   printf("signed char : %zu octet(s)\n", sizeof(signed char));
   printf("unsigned char : %zu octet(s)\n", sizeof(unsigned char));
 
@@ -30,6 +30,7 @@ int main() {
 
   printf("long double : %zu octet(s)\n", sizeof(long double));
 }
+
 
 
 
