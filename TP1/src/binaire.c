@@ -12,9 +12,8 @@ int main() {
 
     printf("Représentation binaire de %d :\n", nombre);
 
-    // Parcourir chaque bit en partant du plus significatif (MSB)
+    // Parcourir chaque bit en partant du plus significatif
     for (int i = taille - 1; i >= 0; i--) {
-        // Décalage à droite et masque avec 1
         int bit = (nombre >> i) & 1;
         printf("%d", bit);
 
@@ -26,3 +25,4 @@ int main() {
 
     printf("\n");
 }
+
