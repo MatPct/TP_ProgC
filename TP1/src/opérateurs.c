@@ -15,8 +15,12 @@ int main() {
   printf("La multiplication de a et b est égale à : %d\n", a * b);
   printf("La division de a par b est égale à : %d\n", a / b);
   printf("Le reste de la division de a par b est égal à : %d\n", a % b);
+  // Le résultat doit être un booléen. Pour ça, on utlise "%s" pour avoir une chaîne de caractères en résultat
+  // et ?: permet de choisir entre deux valeurs selon une condition.
   printf("Utilisation d'un opérateur de comparaison pour vérifier si a et b sont égaux : %s\n", a == b ? "true" : "false");
+  printf("Utilisation d'un opérateur de comparaison pour vérifier si a est supérieur à b : %s\n", a > b ? "true" : "false");
 }
+
 
 
 
