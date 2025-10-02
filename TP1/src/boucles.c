@@ -22,11 +22,12 @@ int main() {
                 printf("#");
             }
         }
-        // Retour à la ligne après chaque ligne d'étoiles
+        // Retour à la ligne après chaque ligne
         printf("\n"); 
     }
   }
 }
+
 
 
 
