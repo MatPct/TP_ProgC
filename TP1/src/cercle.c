@@ -7,5 +7,6 @@ int main() {
   double r = 6;
   
   printf("L'aire du cercle = %f", pi*(r*r));
-  printf("Le périmètre du cercle = %f", 2*pi*r;
+  printf("Le périmètre du cercle = %f", 2*pi*r);
 }
+
