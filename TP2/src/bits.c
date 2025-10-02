@@ -2,7 +2,7 @@
 
 int main() {
     //int d = 0x10001000;  // Exemple de valeur à tester
-    long int d = 00010000000000000001000000000000;
+    long long int d = 00010000000000000001000000000000;
     int taille = sizeof(int) * 8; // Taille d'un int en bits (souvent 32)
 
     // Positions des bits à vérifier (de gauche)
@@ -20,6 +20,7 @@ int main() {
         printf("0\n");
     }
 }
+
 
 
 
