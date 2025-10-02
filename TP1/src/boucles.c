@@ -48,11 +48,12 @@ int main() {
             printf(" "); // espace entre les caractères
             j++;
         }
-        //printf("\n"); // retour à la ligne après chaque ligne
+        printf("\n"); // retour à la ligne après chaque ligne
         i++;
     }
   }
 }
+
 
 
 
