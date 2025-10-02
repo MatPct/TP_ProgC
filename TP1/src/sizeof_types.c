@@ -8,9 +8,9 @@ int main() {
   printf("signed char : %zu octet(s)\n", sizeof(signed char));
   printf("unsigned char : %zu octet(s)\n", sizeof(unsigned char));
 
-  printf("short : %ld octet(s)\n", sizeof(short));
-  printf("signed short : %ld octet(s)\n", sizeof(signed short));
-  printf("unsigned short : %lu octet(s)\n", sizeof(unsigned short));
+  printf("short : %zu octet(s)\n", sizeof(short));
+  printf("signed short : %zu octet(s)\n", sizeof(signed short));
+  printf("unsigned short : %zu octet(s)\n", sizeof(unsigned short));
 
   printf("int : %zu octet(s)\n", sizeof(int));
   printf("signed int : %zu octet(s)\n", sizeof(signed int));
@@ -30,6 +30,7 @@ int main() {
 
   printf("long double : %zu octet(s)\n", sizeof(long double));
 }
+
 
 
 
