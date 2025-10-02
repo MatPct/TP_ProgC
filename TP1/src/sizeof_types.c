@@ -29,7 +29,10 @@ int main() {
   printf("double", sizeof(double));
 
   printf("long double", sizeof(long double));
+
+  return 0;
 }
+
 
 
 
