@@ -14,7 +14,7 @@ int main() {
         // Boucle pour afficher les étoiles sur chaque ligne
         for (int j = 1; j <= i; j++) {
             // Le 1er  et dernier caractère ont le motif : *
-            if (j == 1 || j == i) {
+            if (j == 1 || j == i || j == compteur) {
                 printf("*");
             } 
             else {
@@ -27,5 +27,6 @@ int main() {
     }
   }
 }
+
 
 
