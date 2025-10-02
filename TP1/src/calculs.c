@@ -5,15 +5,15 @@ int main() {
     char op;
 
     // Demande des valeurs à l'utilisateur
-    //printf("Entrez le premier entier : ");
-    scanf("Entrez le premier entier : %d\n", &num1);
+    printf("Entrez le premier entier : ");
+    scanf("%d\n", &num1);
 
-    //printf("Entrez le deuxième entier : ");
-    scanf("Entrez le deuxième entier : %d\n", &num2);
+    printf("Entrez le deuxième entier : ");
+    scanf("%d\n", &num2);
 
-    //printf("Entrez un opérateur (+, -, *, /, %%, &, |, ~) : ");
+    printf("Entrez un opérateur (+, -, *, /, %%, &, |, ~) : ");
     // espace avant %c pour ignorer les retours à la ligne
-    scanf("Entrez un opérateur (+, -, *, /, %%, &, |, ~) :  %c", &op); 
+    scanf(" %c", &op); 
 
     // Structure switch pour choisir l'opération
     switch (op) {
@@ -52,6 +52,7 @@ int main() {
             printf("Opérateur invalide !\n");
     }
 }
+
 
 
 
