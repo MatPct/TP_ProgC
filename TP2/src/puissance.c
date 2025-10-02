@@ -7,7 +7,7 @@ int main() {
     int b = 3;
     // stocke le résultat
     int resultat = 1;
-    int i;
+    //int i;
 
     // Boucle pour calculer a^b
     for (i = 1; i <= b; i++) {
@@ -15,5 +15,6 @@ int main() {
     }
 
     // Affichage du résultat
-    printf("%d élevé à la puissance %d = %d\n", a, b, resultat);
+    printf("%d à la puissance %d = %d\n", a, b, resultat);
 }
+
