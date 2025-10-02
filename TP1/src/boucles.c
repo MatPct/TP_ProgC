@@ -16,4 +16,6 @@ int main() {
         }
         printf("\n"); // Retour à la ligne après chaque ligne d'étoiles
     }
+  }
 }
+
